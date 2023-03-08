@@ -1,0 +1,26 @@
+{
+  "name": "crocodeagency",
+  "version": "1.0.0",
+  "description": "Make automation work for you.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrocodileCode/CrocodeAgency.git"
+  },
+  "keywords": [
+    "crocode",
+    "agency"
+  ],
+  "author": "Crocode Agency, Skinny-x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrocodileCode/CrocodeAgency/issues"
+  },
+  "homepage": "https://github.com/CrocodileCode/CrocodeAgency#readme",
+  "dependencies": {
+    
+  }
+}
