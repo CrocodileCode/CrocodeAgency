@@ -1,0 +1,90 @@
+
+  /* CSS for screens with a width of 992px or less */
+  @media (max-width: 992px) {
+    header {
+      height: 30rem;
+    }
+    .content {
+      text-align: center;
+    }
+    .content h1 {
+      font-size: 3rem;
+    }
+    .content button {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .contentRight {
+      display: none;
+    }
+    .imageList {
+      padding-top: 3rem;
+    }
+  }
+  
+  /* CSS for screens with a width of 768px or less */
+  @media (max-width: 768px) {
+    header {
+      height: 25rem;
+    }
+    .content h1 {
+      font-size: 2.5rem;
+    }
+    .image1 {
+      top: 6rem;
+      right: 0;
+      width: 16rem;
+    }
+    .image3 {
+      top: 15rem;
+      right: 0;
+      width: 8rem;
+    }
+    .image4 {
+      top: 21rem;
+      right: 0;
+      width: 14rem;
+    }
+    .image5 {
+      width: 22rem;
+    }
+  }
+  
+  /* CSS for screens with a width of 576px or less */
+  @media (max-width: 576px) {
+    header {
+      height: 20rem;
+    }
+    .content img {
+      width: 6rem;
+    }
+    .content h1 {
+      font-size: 2rem;
+    }
+    .content button {
+      width: 16rem;
+    }
+    .image1 {
+      top: 4rem;
+      right: -4rem;
+      width: 14rem;
+    }
+    .image3 {
+      top: 10rem;
+      right: -2rem;
+      width: 6rem;
+    }
+    .image4 {
+      top: 14rem;
+      right: -4rem;
+      width: 12rem;
+    }
+    .image5 {
+      width: 16rem;
+    }
+    .sectiontextRight {
+      margin-right: 0;
+      margin-bottom: 2rem;
+    }
+  }
+  
