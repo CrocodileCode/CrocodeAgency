@@ -14,7 +14,7 @@
 
 header{
     width: auto;
-    height: 100rem;
+    height: 43rem;
     background-color: #011E11;
 }
 
@@ -28,7 +28,7 @@ header{
 
 .content h1{
     font-family: 'DM Sans', sans-serif;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-weight: bold;
     margin-left: 0rem;
 }
@@ -48,6 +48,8 @@ header{
 
 
 .contentRight{
+    z-index: 1;
+    position: relative;
     width: 26rem;
     margin-right: 0rem;
     overflow: hidden;
@@ -56,8 +58,7 @@ header{
     clip-path: path('M13.1 0L0 189.4 39.5 268.3 44.7 386.7 328.8 499.8 399.8 69.7 136.8 78.9z');
 }
 
-.imageList {
-    
+.imageList {  
     overflow: hidden;
     padding-top: 6rem;
 }
@@ -70,15 +71,56 @@ header{
     transform-origin:374.38202247px 249.9px;
     height:499.8px;
     opacity:1.0;
-    z-index: 2;
+    
+    
   }
-/* 
- .image1{
+
+  .image3{
+     z-index: 2;
+    top: 19rem;
+    right: 23.5rem;
     position: absolute;
-    top: 0;
-    right: 0;
+    width: 10rem;
+  }
+
+  .image4{
+     z-index: 2;
+    top: 26rem;
+    right: 3rem;
+    position: absolute;
+    width: 18rem;
+  }
+
+ 
+ .image1{
     z-index: 0;
-    transform: scale(1.5);
-    margin-top: 11rem;
-    margin-left: 4rem;
-  } */
+    transform: scale(1.8);
+    top: 12rem;
+    right: 8rem;
+    position: absolute;
+    width: 20rem;
+  } 
+
+  /* Section */
+
+  section{
+    background-color: #12FF46;
+    width: auto;
+    height: 100rem;
+    padding: 5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .sectiontextRight{
+    padding: 5rem;
+    justify-content: justify;
+    align-items: justify;
+    font-size: 14px;
+  }
+  .sectiontextRight p{
+    margin-top: 4rem;
+  }
+  .image5{
+    width: 30rem;
+  }
