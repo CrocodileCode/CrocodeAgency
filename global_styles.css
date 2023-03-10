@@ -54,7 +54,7 @@ header{
     margin-right: 0rem;
     overflow: hidden;
     transform:scale(1, 1);
-    transform-origin:200px 250px;
+    transform-origin:12.5rem 15.625rem;
     clip-path: path('M13.1 0L0 189.4 39.5 268.3 44.7 386.7 328.8 499.8 399.8 69.7 136.8 78.9z');
 }
 
@@ -64,12 +64,12 @@ header{
 }
 
 .contentRight > .image2 {
-    transform:translate(-261.01531366px, 0px)  rotate(0deg);;
+    transform:translate(-16.31345710375rem, 0rem)  rotate(0deg);;
     display:block;
     object-fit:fill;
-    width:748.76404494px;
-    transform-origin:374.38202247px 249.9px;
-    height:499.8px;
+    width:46.79775280875rem;
+    transform-origin:23.398876404375rem 15.61875rem;
+    height:31.2375rem;
     opacity:1.0;
     
     
@@ -88,7 +88,7 @@ header{
     top: 26rem;
     right: 2rem;
     position: absolute;
-    width: 18rem;
+    width: 15rem;
   }
 
  
@@ -110,18 +110,18 @@ header{
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 1.875rem;
     
   }
   .sectionImageLeft{
-    padding-top: 45px;
-    padding-bottom: 45px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding-top: 2.8125rem;
+    padding-bottom: 2.8125rem;
+    padding-right: 1.875rem;
+    padding-left: 1.875rem;
   }
   .sectiontextRight{
     margin-right: 1rem;
-    font-size: 14px;
+    font-size: 0.875rem;
     width: 100%;
   }
   .sectiontextRight > h1{
@@ -146,7 +146,7 @@ header{
     background-color: #011E11;
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 1.875rem;
     align-items: center;
     justify-content: center;
   }
@@ -177,7 +177,7 @@ header{
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 1.875rem;
     align-items: center;
     justify-content: center;
   }
@@ -252,11 +252,11 @@ header{
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 220px;
+    margin-top: 13.75rem;
   }
 
   .testimonialTitle > p{
-    padding-right: 97px;
+    padding-right: 6.0625rem;
     font-family: "Neue";
   
   }
@@ -269,7 +269,7 @@ header{
   display: flex;
   flex-direction: row;
   align-content: center;
-  padding: 30px;
+  padding: 1.875rem;
   justify-content: center;
   align-items: flex-start;
   position: relative;
@@ -297,7 +297,7 @@ header{
   font-family: 'DM Sans', sans-serif;
   font-size: 1rem;
   font-weight: bold;
-  padding: 50px;
+  padding: 3.125rem;
   padding-left: 0;
   padding-bottom: 0;
   color: #12FF46 !important;
@@ -317,7 +317,7 @@ header{
 .foot{
   position: absolute;
   bottom: 0;
-  height: 40px;
+  height: 2.5rem;
   background-color: #000;
 }
 
@@ -326,7 +326,7 @@ header{
   justify-content: center;
   color: #605e5e;
   display: flex;
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .contentFooter > button{
@@ -350,7 +350,7 @@ border-radius: 3rem;
   margin-right: 0rem;
   overflow: hidden;
   transform:scale(1, 1);
-  transform-origin:200px 250px;
+  transform-origin:12.5rem 15.625rem;
   clip-path: path('M13.1 0L0 189.4 39.5 268.3 44.7 386.7 328.8 499.8 399.8 69.7 136.8 78.9z');
 }
 
@@ -361,12 +361,12 @@ border-radius: 3rem;
 }
 
 .contentFooterRight > .image6 {
-  transform:translate(-171.01531366px, 0px)  rotate(0deg);;
+  transform:translate(-10.68845710375rem, 0rem)  rotate(0deg);;
   display:block;
   object-fit:fill;
-  width:748.76404494px;
-  transform-origin:374.38202247px 249.9px;
-  height:499.8px;
+  width:46.79775280875rem;
+  transform-origin:23.398876404375rem 15.61875rem;
+  height:31.2375rem;
   opacity:1.0;
   
   
