@@ -260,3 +260,132 @@ header{
     font-family: "Neue";
   
   }
+
+  /* Footer */
+  
+#sectionFoot{
+  background-color: #011E11;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding: 30px;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+} 
+
+
+
+.contentFooter > h1{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-left: 0rem;
+  color: #12FF46 !important;
+}
+.contentFooter > span{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  margin-left: 0rem;
+  color: #12FF46;
+}
+
+.socialFooter > p{
+  display: flex;
+  flex-direction: column;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 50px;
+  padding-left: 0;
+  padding-bottom: 0;
+  color: #12FF46 !important;
+}
+
+.socialFooter > span {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  color:white !important;
+}
+
+.socialFooter  span > img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.foot{
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  background-color: #000;
+}
+
+.foot > span{
+  text-align: center;
+  justify-content: center;
+  color: #605e5e;
+  display: flex;
+  padding: 10px;
+}
+
+.contentFooter > button{
+margin-left: 0rem;
+margin-top: 2rem;
+width: 20rem;
+padding: 0.8rem;
+border: none;
+background-color: #12FF46;
+color: black;
+opacity: 1.0;
+font-family: "Neue";
+border-radius: 3rem;
+}
+
+
+ .contentFooterRight{
+  z-index: 1;
+  position: relative;
+  width: 26rem;
+  margin-right: 0rem;
+  overflow: hidden;
+  transform:scale(1, 1);
+  transform-origin:200px 250px;
+  clip-path: path('M13.1 0L0 189.4 39.5 268.3 44.7 386.7 328.8 499.8 399.8 69.7 136.8 78.9z');
+}
+
+.imageList {  
+  overflow: hidden;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.contentFooterRight > .image6 {
+  transform:translate(-171.01531366px, 0px)  rotate(0deg);;
+  display:block;
+  object-fit:fill;
+  width:748.76404494px;
+  transform-origin:374.38202247px 249.9px;
+  height:499.8px;
+  opacity:1.0;
+  
+  
+}
+
+.image7{
+  z-index: 2;
+  bottom: 14rem;
+  right: 18rem;
+  position: absolute;
+  width: 9rem;
+}
+
+
+.image8{
+  z-index: 0;
+  transform: scale(1.8);
+  bottom: 10rem;
+  right: 5rem;
+  position: absolute;
+  width: 19rem;
+} 
