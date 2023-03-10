@@ -128,9 +128,11 @@
       width: 100% !important;
     }
     #sectionCards > h3 {
-    
     padding: 0rem !important;
-    
     }
+    .contentFooter > button { 
+      width: 16rem; 
+     
+   }
   }
   
