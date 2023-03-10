@@ -2,12 +2,25 @@
   /* CSS for screens with a width of 992px or less */
   @media (max-width: 992px) {
     header {
-      height: 30rem;
+      width: 100rem;
+      
     }
+
+    .headContainer{
+      display: flex;
+      justify-content: space-evenly!important;
+    }
+    .content img{
+      width: 18rem;
+      margin: 0 !important;
+    }
+  
     .content {
       text-align: center;
     }
     .content h1 {
+      padding-top: 0;
+      margin-top: 0;
       font-size: 3rem;
     }
     .content button {
@@ -17,37 +30,55 @@
     .contentRight {
       display: none;
     }
-    .imageList {
-      padding-top: 3rem;
+    
+    section{
+      background-color: #12FF46;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      padding: 1.875rem;
+      flex-direction: column !important;
     }
+    
+
+    .image5{
+      
+      clip-path: none;
+      width: 30rem;
+    }
+
+    .sectiontextRight{
+      margin: 0px !important;
+    }
+    .sectiontextRight > h1{
+      text-align: center;
+     
+    } 
+    .sectiontextRight > p{
+      text-align: center;
+      
+    }
+    #sectionFeedBack > h1 {
+      justify-content: flex-start;
+      text-align: left;
+      font-family: 'DM Sans', sans-serif;
+      display: flex;
+  }
   }
   
   /* CSS for screens with a width of 768px or less */
   @media (max-width: 768px) {
     header {
-      height: 25rem;
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
     }
-    .content h1 {
-      font-size: 2.5rem;
-    }
-    .image1 {
-      top: 6rem;
-      right: 0;
-      width: 16rem;
-    }
-    .image3 {
-      top: 15rem;
-      right: 0;
-      width: 8rem;
-    }
-    .image4 {
-      top: 21rem;
-      right: 0;
-      width: 14rem;
-    }
-    .image5 {
-      width: 22rem;
-    }
+   .imageList{
+    display: none;
+   }
   }
   
   /* CSS for screens with a width of 576px or less */
@@ -85,6 +116,21 @@
     .sectiontextRight {
       margin-right: 0;
       margin-bottom: 2rem;
+    }
+
+    .cardLabel {
+    display: flex!important;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    }
+    .card{
+      width: 100% !important;
+    }
+    #sectionCards > h3 {
+    
+    padding: 0rem !important;
+    
     }
   }
   

@@ -16,6 +16,12 @@ header{
     width: auto;
     height: 43rem;
     background-color: #011E11;
+    
+}
+
+.headContainer{
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -315,18 +321,16 @@ header{
 }
 
 .foot{
-  position: absolute;
-  bottom: 0;
-  height: 2.5rem;
   background-color: #000;
+  height: auto;
+  padding: 10px !important;
 }
 
-.foot > span{
+.foot > h1{
   text-align: center;
   justify-content: center;
   color: #605e5e;
   display: flex;
-  padding: 0.625rem;
 }
 
 .contentFooter > button{
